@@ -9,7 +9,7 @@ from subprocess import call, Popen, check_output
 from xml.etree.ElementTree import fromstring
 import uuid
 from PIL import Image
-from . import config
+import config
 
 def get_bg_color(filename):
     '''
